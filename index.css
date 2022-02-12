@@ -1,0 +1,889 @@
+body{
+ 
+ background-color: #eee;
+ margin: 0px;
+
+}
+
+
+ ul{
+     background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.315);
+}
+
+ul li{
+    
+   
+    
+    float: left;
+    list-style: none;
+    
+    
+
+}
+ul li a{
+   
+    margin: 20px;
+    text-decoration: none;
+
+}
+
+.Depop a{
+    
+    color: red;
+    font-size:36px;
+    font-weight: bold;
+}
+
+.buscador{
+  padding-top: 6px;
+  margin: 4px;
+  padding-left: 75px;
+ 
+}
+
+input[type="text"]{
+
+ width: 661px;
+ padding-left: 40px;
+ height: 32px;
+ outline: none;
+
+}
+
+.fa-solid{
+ position: fixed;
+ top: 40px;
+ left: 1048px;
+ 
+
+ 
+ font-weight: bold;
+
+}
+
+.fa-cart-shopping{
+
+ margin: 0px;
+ padding: 0px;
+ left: 980px;
+ top: 42px;
+ position: fixed;
+ color:rgba(34, 34, 34, 0.918) ;
+ font-size: 22px;
+ 
+
+
+}
+
+
+.fa-heart{
+    color: red;
+
+  margin-right: 40px;
+ font-size: 1.5rem;
+ transition: 0.3s;
+
+}
+
+.fa-heart:hover{
+ 
+ transform: scale(1.5);
+ 
+
+}
+
+figure:hover > figcaption{
+ color: rgb(233, 85, 79);
+ display: block;
+ 
+
+}
+  
+
+figcaption{
+ 
+  margin: 0px;
+  padding: 0px;
+  top: 68px;
+  left: 1046px;
+  position: fixed;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: none;
+  font-weight: bold;
+
+ transition: 1s;
+    
+}
+
+.fa-cart-shopping:hover{
+ 
+    transform: scale(1.5);
+     
+}
+
+
+
+
+
+
+.singup {
+   
+    margin-left: 100px;
+    border-radius: 1px;
+    padding: 7px 24px;
+    border-style: none;
+    background-color:rgba(38, 38, 38);
+    border-style: none;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.login{
+    position: relative;
+    
+    margin: 0px;
+    border-radius: 1px;
+    padding: 7px 30px;
+    font-weight: bold;
+    border-style: none;
+    transition: 0.3s;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.singup:hover{
+    background-color: rgba(48, 48, 48, 0.582);
+}
+
+.login:hover{
+    background-color: rgba(48, 48, 48, 0.582);
+    border-radius: 1px;
+}
+
+ol{
+    background-color: white;
+    list-style-type: none;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+  
+ }
+
+ol li{
+    
+   
+    
+    float: left;
+    list-style: none;
+    
+}
+
+ol li a{
+    
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.3s;
+    font-size: 14px;
+    padding: 0px 18px;
+    color:black;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+
+.downpart a{
+
+    text-decoration: underline;
+}
+
+.downpart a:hover{
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color:rgba(27, 27, 27, 0.897);
+    color: white;
+}
+
+
+
+.fa-magnifying-glass{
+
+    position: fixed;
+    top: 40px;
+    left: 230px;
+
+    font-weight: 10px;   
+
+    color: rgba(128, 128, 128, 0.39);
+
+    margin-right: 40px;
+    font-size: 1.2rem;
+    transition: 0.3s;
+
+}
+
+
+.treemenu{
+    background-color: white;
+    position: fixed;
+    margin-top: 93px;
+    width: 100%;
+    border-bottom: solid 1px rgba(158, 158, 158, 0.637);
+    border-top: solid 1px rgba(158, 158, 158, 0.637);
+    left: 0px;
+    top:-5px;
+    border-collapse: collapse;
+}
+
+
+.treemenu button{
+ 
+ border-style: none;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 16px;
+ margin: 0px 0px;
+ padding: 16px 34px;
+ background-color:white;
+ transition: 0.1s;
+ border-collapse: collapse;
+
+}
+
+.treemenu button:hover{
+
+    border-style: none;
+    
+    
+    color: white;
+    background-color:rgba(38, 38, 38);
+    
+    
+   
+}
+
+
+.dropdownmen{
+    position: relative;
+    display: inline-block;
+   
+}
+
+
+.mencontent{
+
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 0px;
+    max-width: 2000px;    
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+   
+    
+}
+   
+.mencontent a{
+    color: black;
+    padding: 8px 130px;
+    padding-left: 15px;
+    margin: 0px;
+    border: solid 1px rgba(190, 186, 186, 0.233);
+    text-decoration: none;
+    display: block;
+    
+    border-radius: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+   
+   
+}
+
+.mencontent a:hover{
+    
+    
+    color: white;
+    background-color:rgba(38, 38, 38);
+
+}
+
+.dropdownmen:hover .mencontent{
+
+    display: block; 
+
+}
+.dropdownwomen{
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+.womencontent{
+
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 0px;
+    max-width: 2000px;    
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+   
+    
+}
+   
+.womencontent a{
+    color: black;
+    padding: 8px 130px;
+    padding-left: 15px;
+    margin: 0px;
+    border: solid 1px rgba(190, 186, 186, 0.233);
+    text-decoration: none;
+    display: block;
+    
+    border-radius: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+   
+   
+}
+
+.womencontent a:hover{
+    
+    
+    color: white;
+    background-color:rgba(38, 38, 38);
+
+}
+
+.dropdownjew{
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+.jewcontent{
+
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 250px;
+    max-width: 2000px;    
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+   
+    
+}
+   
+.jewcontent a{
+    color: black;
+    padding: 8px 130px;
+    padding-left: 15px;
+    margin: 0px;
+    border: solid 1px rgba(190, 186, 186, 0.233);
+    text-decoration: none;
+    display: block;
+    
+    border-radius: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+   
+   
+}
+
+.jewcontent a:hover{
+    
+    
+    color: white;
+    background-color:rgba(38, 38, 38);
+
+}
+
+.dropdownbeauty{
+    position: relative;
+    display: inline-block;
+   
+}
+
+
+.beautycontent{
+
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 250px;
+    max-width: 2000px;    
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+   
+    
+}
+   
+.beautycontent a{
+    color: black;
+    padding: 8px 130px;
+    padding-left: 15px;
+    margin: 0px;
+    border: solid 1px rgba(190, 186, 186, 0.233);
+    text-decoration: none;
+    display: block;
+    
+    border-radius: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+   
+   
+}
+
+.beautycontent a:hover{
+    
+    
+    color: white;
+    background-color:rgba(38, 38, 38);
+
+}
+
+
+
+.dropdownbrands{
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+.brandscontent{
+
+    text-decoration: none;
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 310px;
+    max-width: 2000px;    
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+   
+    
+}
+   
+.brandscontent a{
+    color: black;
+    padding: 8px 130px;
+    padding-left: 15px;
+    margin: 0px;
+    border: solid 1px rgba(190, 186, 186, 0.233);
+    text-decoration: none;
+    display: block;
+    
+    border-radius: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+   
+   
+}
+
+.brandscontent a:hover{
+    
+    
+    color: white;
+    background-color:rgba(38, 38, 38);
+
+}
+
+.dropdownbrands:hover .brandscontent{
+
+ display: block;
+
+}
+
+.dropdownwomen:hover .womencontent{
+
+    display: block;
+   
+}
+   
+.dropdownjew:hover .jewcontent{
+
+    display: block;
+   
+}
+
+.dropdownbeauty:hover .beautycontent{
+
+    display: block;
+   
+}
+
+.dropdownbrands:hover .brandscontent{
+
+    display: block;
+   
+}
+   
+
+
+
+
+
+
+
+
+
+.cuerpo{
+
+    margin-top: 140px;
+
+
+}
+
+.backphoto1{
+ 
+    padding: 0px 0px;
+    padding-right: 0px;
+    background-color:  rgba(227,227,227,255);
+
+}
+
+.textouno{
+ 
+ float: right;
+ position: static;
+ padding: 120px 166px;
+ padding-left:168px;
+ background-image: linear-gradient(90deg, rgba(237, 237, 237, 0.582),rgba(12, 151, 12, 0.356), rgba(26, 200, 243, 0.705));
+
+}
+.textouno h1{
+
+ font-size: 36px;
+ 
+ font-style:normal;
+
+}
+
+.textouno p{
+  font-size: 16px;
+ 
+}
+
+.getstarted{
+
+   border-style: none;
+   background-color: rgba(38,38,38);
+   color: white;
+   margin-left: 215px;
+   margin-top: 30px;
+   border-radius: 5px;
+   padding: 18px;
+   transition: 0.3s;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+
+}
+
+.getstarted:hover{
+  
+  transform:scale(1.2);
+  background-color: rgba(29, 28, 28, 0.774);
+ 
+  
+
+}
+
+.articulos{
+  
+  margin-left: 0px;
+  margin-top: -4px;
+  padding: 250px 250px;
+  padding-left: 70px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  background-color: #eee;
+ 
+}
+
+.contenedor{
+    
+    border-style: none;
+    height: 250px;
+    padding-bottom: 200px;
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 1200px;
+    padding-left: 20px;
+    
+    overflow:auto;
+    padding-right: 0px;
+    
+}
+
+
+.contenedor::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.contenedor::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.contenedor::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.contenedor::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.contenedor:hover::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.contenedor::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+
+.articulos p{
+    
+    height: 600px;
+    width: 1100px;
+    padding: 0px;
+    margin: 0px;
+    
+    font-size: 38px;
+    
+ 
+}
+
+
+.buso{
+ 
+ padding-bottom: 80px;
+ background-color:rgba(235, 255, 248, 0.856);
+ border-radius: 12px;
+ transition: 0,3s;
+ box-shadow: 0px 1px 12px 1px;
+
+}
+
+
+
+.buso:hover{
+ cursor: pointer;
+ transform: scale(1.05);
+
+}
+
+
+.camisaazul{
+   
+    padding-bottom: 80px;
+    background-color:rgba(235, 255, 248, 0.856);
+    margin-left: 150px;
+    border-radius: 12px;
+    transition: 0,3s;
+    box-shadow: 0px 1px 12px 1px;
+   
+}
+   
+.camisaazul:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+   
+}
+
+.busoamarillo{
+ 
+    padding-bottom: 80px;
+    background-color:rgba(235, 255, 248, 0.856);
+    margin-left: 150px;
+    border-radius: 12px;
+    transition: 0,3s;
+    box-shadow: 0px 1px 12px 1px;
+   
+}
+   
+.busoamarillo:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+   
+}
+
+.saconegro{
+ 
+    padding-bottom: 80px;
+    background-color:rgba(235, 255, 248, 0.856);
+    margin-left:0px;
+    margin-top: 60px;
+
+    border-radius: 12px;
+    transition: 0,3s;
+    box-shadow: 0px 1px 12px 1px;
+   
+}
+   
+.saconegro:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+   
+}
+
+.busod{
+ 
+    padding-bottom: 80px;
+    background-color:rgba(235, 255, 248, 0.856);
+    margin-left:150px;
+    margin-top: 60px;
+
+    border-radius: 12px;
+    transition: 0,3s;
+    box-shadow: 0px 1px 12px 1px;
+   
+}
+   
+.busod:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+   
+}
+
+.camisaazuld{
+ 
+    padding-bottom: 80px;
+    background-color:rgba(235, 255, 248, 0.856);
+    margin-left:150px;
+    margin-top: 60px;
+
+    border-radius: 12px;
+    transition: 0,3s;
+    box-shadow: 0px 1px 12px 1px;
+   
+}
+   
+.camisaazuld:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+   
+}
+
+.busoamarillod{
+ 
+    padding-bottom: 80px;
+    background-color:rgba(235, 255, 248, 0.856);
+    margin-left:150px;
+    margin-top: 60px;
+
+    border-radius: 12px;
+    transition: 0,3s;
+    box-shadow: 0px 1px 12px 1px;
+   
+}
+   
+.busoamarillod:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+   
+}
+
+
+
+.phone{
+
+  margin-top: 0px;
+  margin-top: 0px;
+ 
+     height: 360px;
+     width: 702px;
+     padding-right: 700px;
+     padding-left: 0px;
+     padding-bottom: px;
+     background-color: rgba(0,180,255,255);
+}
+
+
+
+.iphone{
+
+    margin: 0px;
+    padding: 0px;
+    margin-top: -900px;
+    margin-bottom: 40px;
+    margin-left: 870px;
+
+}
+
+
+.db{
+ 
+
+margin: 0px;
+padding: 12px;
+color: white;
+margin-left: -200px;
+margin-top: -300px;
+margin-left: 437px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+.db h2{
+  
+
+    font-size: 28px;
+}
+.db p{
+
+    font-style: italic;
+}
+
+
+.downloadbtton{
+
+    border-style: none;
+    background-color: rgba(38,38,38);
+    color: white;
+    margin-left: 500px;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding: 18px;
+    transition: 0.3s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+ 
+ }
+
+ .downloadbtton:hover{
+
+    transform:scale(1.2);
+    background-color: rgba(29, 28, 28, 0.774);
+
+
+ }
